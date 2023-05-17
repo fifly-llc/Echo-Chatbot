@@ -9,9 +9,9 @@ def wiki(query):
                 return wikipedia.summary(new_query)
             except Exception:
                 pass
-    return "I don't know about "+query
+    return "I don't know about " + query
 
 while(True):
-  question=input(">> ")
-  answer=wiki(question)
-  print(answer)
+  question = input("You $ ")
+  answer = wiki(question)
+  print("Echo $ " + answer)
