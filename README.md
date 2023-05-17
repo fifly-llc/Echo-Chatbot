@@ -7,6 +7,6 @@ Echo requires:
 And that's it!
 
 ## Setup & Running
-Just run ``bash
+Just run ``
 python3 main.py
 `` and it's running!
